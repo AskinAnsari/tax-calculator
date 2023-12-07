@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tax Calculator</title>
+</head>
+<body>
+
+    <div id="calculator">
+        <h2>Tax Calculator</h2>
+        <label for="income">Income:</label>
+        <input type="number" id="income" placeholder="Enter your income" required>
+
+        <label for="deductions">Deductions:</label>
+        <input type="number" id="deductions" placeholder="Enter your deductions" required>
+
+        <button onclick="calculateTax()">Calculate Tax</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
