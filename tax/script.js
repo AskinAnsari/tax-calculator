@@ -12,5 +12,5 @@ function calculateTax() {
     const taxAmount = taxableIncome * taxRate;
 
     const resultElement = document.getElementById('result');
-    resultElement.innerHTML = `Your calculated tax is: $${taxAmount.toFixed(2)}`;
+    resultElement.innerHTML = `Your calculated tax is: ₹${taxAmount.toFixed(2)}`;
 }
